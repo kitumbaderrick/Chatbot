@@ -1,0 +1,732 @@
+{
+  "intents": [
+          {
+                  "tag": "greeting",
+                  "patterns": [
+                          "Hi",
+                          "How are you",
+                          "Is anyone there?",
+                          "Hello",
+                          "Good day",
+                          "Whats up",
+                          "how are ya",
+                          "heyy",
+                          "whatsup"
+                  ],
+                  "responses": [
+                          "Hello!",
+                          "Good to see you!",
+                          "Hi there, how can I help?"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "goodbye",
+                  "patterns": [
+                          "cya",
+                          "see you",
+                          "bye bye",
+                          "See you later",
+                          "Goodbye",
+                          "I am Leaving",
+                          "Bye",
+                          "Have a Good day",
+                          "talk to you later",
+                          "tyyl",
+                          "i got to go",
+                          "gtg"
+                  ],
+                  "responses": [
+                          "Sad to see you go :(",
+                          "Talk to you later",
+                          "Goodbye!",
+                          "Come back soon"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "creator",
+                  "patterns": [
+
+                          "what is the name of your developers",
+                          "what is the name of your creators",
+                          "what is the name of the developers",
+                          "what is the name of the creators",
+                          "who created you",
+                          "your developers",
+                          "your creators",
+                          "who are your developers",
+                          "developers",
+                          "you are made by",
+                          "you are made by whom",
+                          "who created you",
+                          "who create you",
+                          "creators",
+                          "who made you",
+                          "who designed you"
+                  ],
+                  "responses": [
+                          "Derek  developed me in December 2022, for their mini project",
+                          "I was developed by Derek",
+                          "Derek developed me"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "name",
+                  "patterns": [
+                          "name",
+                          "your name",
+                          "do you have a name",
+                          "what are you called",
+                          "what is your name",
+                          "what should I call you",
+                          "whats your name?",
+                          "what are you",
+                          "who are you",
+                          "who is this",
+                          "what am i chatting to",
+                          "who am i taking to",
+                          "what are you"
+                  ],
+                  "responses": [
+                          "You can call me Derrick.",
+                          "I'm Derrick",
+                          "I'm Derrick aka Isbat University's Chatbot."
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "hours",
+                  "patterns": [
+                          "timing of Isbat University",
+                          "what is Isbat University timing",
+                          "working days",
+                          "when are you guys open",
+                          "what are your hours",
+                          "hours of operation",
+                          "when is the Isbat University open",
+                          "Isbat University timing",
+                          "what about Isbat University timing",
+                          "is Isbat University open on saturday",
+                          "tell something about Isbat University timing",
+                          "what is the Isbat University  hours",
+                          "when should i come to Isbat University",
+                          "when should i attend Isbat University",
+                          "what is my Isbat University time",
+                          "Isbat University timing",
+                          "timing Isbat University"
+                  ],
+                  "responses": [
+                          "Isbat University is open 9am-5pm Monday-Friday!"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "number",
+                  "patterns": [
+
+                          "more info",
+                          "contact info",
+                          "how to contact Isbat University",
+                          "Isbat University telephone number",
+                          "Isbat University number",
+                          "What is your contact no",
+                          "Contact number?",
+                          "how to call you",
+                          "Isbat University phone no?",
+                          "how can i contact you",
+                          "Can i get your phone number",
+                          "how can i call you",
+                          "phone number",
+                          "phone no",
+                          "call"
+                  ],
+                  "responses": [
+                          "You can contact at +91-011-25318157"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "course",
+                  "patterns": [
+                          "list of courses",
+                          "list of courses offered",
+                          "list of courses offered in cbpIsbat University",
+                          "what are the courses offered in your Isbat University?",
+                          "courses?",
+                          "courses offered",
+                          "courses offered in Isbat University",
+                          "courses you offer",
+                          "branches?",
+                          "studies",
+                          "courses available at Is?",
+                          "branches available at Isbat University?",
+                          "what are the courses in Isbat University?",
+                          "what are branches in Isbat University?",
+                          "what are courses in Isbat University?",
+                          "branches available in Isbat University?",
+                          "can you tell me the courses available in Isbat University?",
+                          "can you tell me the branches available in Isbat University?",
+                          "Civil engineering?",
+                          "civil",
+                          "it",
+                          "IT"
+                  ],
+                  "responses": [
+                          "Isbat University  offers BscML&AI, Information Technology, Civil Engineering,BBA,and Mechanical Engineering."
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "fees",
+                  "patterns": [
+                          "information about fee",
+                          "information on fee",
+                          "tell me the fee",
+                          "Isbat University fee",
+                          "fee per semester",
+                          "what is the fee of each semester",
+                          "what is the fees of each year",
+                          "what is fee",
+                          "what is the fees",
+                          "how much is the fees",
+                          "fees for first year",
+                          "fees",
+                          "about the fees",
+                          "tell me something about the fees"
+                  ],
+                  "responses": [
+                          "For Fee detail visit <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "location",
+                  "patterns": [
+                          "where is the Isbat University located",
+                          "Isbat University is located at",
+                          "where is Isbat University",
+                          "where is Isbat University located",
+                          "address of Isbat University",
+                          "how to reach Isbat University",
+                          "Isbat University location",
+                          "Isbat University address",
+                          "wheres the Isbat University",
+                          "how can I reach Isbat University",
+                          "whats is the Isbat University address",
+                          "what is the address of Isbat University",
+                          "address",
+                          "location"
+                  ],
+                  "responses": [
+                          " Isbat University,Kololo By Pass  <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here</a> "
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "hostel",
+                  "patterns": [
+                          "hostel facility",
+                          "hostel servive",
+                          "hostel location",
+                          "hostel address",
+                          "hostel facilities",
+                          "hostel fees",
+                          "Does Isbat University provide hostel",
+                          "Is there any hostel",
+                          "Where is hostel",
+                          "do you have hostel",
+                          "do you guys have hostel",
+                          "hostel",
+                          "hostel capacity",
+                          "what is the hostel fee",
+                          "how to get in hostel",
+                          "what is the hostel address",
+                          "how far is hostel from Isbat University",
+                          "hostel Isbat University distance",
+                          "where is the hostel",
+                          "how big is the hostel",
+                          "distance between Isbat University and hostel",
+                          "distance between hostel and Isbat University"
+                  ],
+                  "responses": [
+                          "Isbat University doesnt provide hostel facilities but it can help"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "event",
+                  "patterns": [
+                          "events organised",
+                          "list of events",
+                          "list of events organised in Isbat University",
+                          "list of events conducted in Isbat University",
+                          "What events are conducted in Isbat University",
+                          "Are there any event held at Isbat University",
+                          "Events?",
+                          "functions",
+                          "what are the events",
+                          "tell me about events",
+                          "what about events"
+                  ],
+                  "responses": [
+                          "proIsbat Universitytion, Sports Week, Conference and various other event conducted in the Isbat University. For more information you can visit Isbat University Website <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here "
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "document",
+                  "patterns": [
+                          "document to bring",
+                          "documents needed for admision",
+                          "documents needed at the time of admission",
+                          "documents needed during admission",
+                          "documents required for admision",
+                          "documents required at the time of admission",
+                          "documents required during admission",
+                          "What document are required for admission",
+                          "Which document to bring for admission",
+                          "documents",
+                          "what documents do i need",
+                          "what documents do I need for admission",
+                          "documents needed"
+                  ],
+                  "responses": [
+                          "To know more about document required visit <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "floors",
+                  "patterns": [
+                          "size of campus",
+                          "building size",
+                          "How many floors does Isbat University have",
+                          "floors in Isbat University",
+                          "floors in Isbat University",
+                          "how tall is Isbat University Isbat University building",
+                          "floors"
+                  ],
+                  "responses": [
+                          "Isbat University University has total 8 floors "
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "syllabus",
+                  "patterns": [
+                          "Syllabus for IT",
+                          "what is the Information Technology syllabus",
+                          "syllabus",
+                          "timetable",
+                          "what is IT syllabus",
+                          "syllabus",
+                          "What is next lecture"
+                  ],
+                  "responses": [
+                          "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here</a>",
+                          "To know about  syllabus and timetable visit <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\"> here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "library",
+                  "patterns": [
+                          "is there any library",
+                          "library facility",
+                          "library facilities",
+                          "do you have library",
+                          "does the Isbat University have library facility",
+                          "Isbat University library",
+                          "where can i get books",
+                          "book facility",
+                          "Where is library",
+                          "Library",
+                          "Tell me about library",
+                          "how many libraries"
+                  ],
+                  "responses": [
+                          "There is one library on First floor."
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "infrastructure",
+                  "patterns": [
+                          "how is Isbat University infrastructure",
+                          "infrastructure",
+                          "Isbat University infrastructure"
+                  ],
+                  "responses": [
+                          "Isbat University University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "canteen",
+                  "patterns": [
+                          "food facilities",
+                          "canteen facilities",
+                          "canteen facility",
+                          "is there any canteen",
+                          "Is there a cafetaria in Isbat University",
+                          "Does Isbat University have canteen",
+                          "Where is canteen",
+                          "where is cafetaria",
+                          "canteen",
+                          "Cafetaria"
+                  ],
+                  "responses": [
+                          "Isbat University has canteen with variety of food available"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "menu",
+                  "patterns": [
+                          "food menu",
+                          "food in canteen",
+                          "Whats there on menu",
+                          "what is available in Isbat University canteen",
+                          "what foods can we get in Isbat University canteen"
+                  ],
+                  "responses": [
+                          "we serve all foods on the menu"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "placement",
+                  "patterns": [
+                          "What is Isbat University placement",
+                          "Which companies visit in Isbat University",
+                          "What is average package",
+                          "companies visit",
+                          "package",
+                          "placement",
+                          "recruitment",
+                          "companies"
+                  ],
+                  "responses": [
+                          "To know about placement visit <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\">here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "ithod",
+                  "patterns": [
+                          "Who is IT HOD",
+                          "Where is IT HOD",
+                          "it hod",
+                          "name of it hod"
+                  ],
+                  "responses": [
+                          "Dr. Some Name is IT HOD who is available on Ground floor"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "civilhod",
+                  "patterns": [
+                          "Who is Civil HOD",
+                          "Where is civil HOD",
+                          "civil hod",
+                          "name of civil hod"
+                  ],
+                  "responses": [
+                          "Dr. Some Name2 is Civil HOD who is available on Ground floor"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "mechhod",
+                  "patterns": [
+                          "Who is Mechanical HOD",
+                          "Where is  mechanical HOD",
+                          "mechanical hod",
+                          "name of mechanical hod"
+                  ],
+                  "responses": [
+                          "Dr.Sabita.HA is Mechanical HOD who is available on Ground floor"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "principal",
+                  "patterns": [
+                          "what is the name of principal",
+                          "whatv is the principal name",
+                          "principal name",
+                          "Who is Isbat University principal",
+                          "Where is principal's office",
+                          "principal",
+                          "name of principal"
+                  ],
+                  "responses": [
+                          "Prof. K.C is Isbat University principal who is available on Ground floor"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "sem",
+                  "patterns": [
+                          "Online Exams",
+                          "Online Exam Tests",
+                          "exam dates",
+                          "exam schedule",
+                          "When is semester exam",
+                          "Semester exam timetable",
+                          "sem",
+                          "semester",
+                          "exam",
+                          "when is exam",
+                          "exam timetable",
+                          "exam dates",
+                          "when is semester"
+                  ],
+                  "responses": [
+                          "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/calendar\">website</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "admission",
+                  "patterns": [
+                          "what is the process of admission",
+                          "what is the admission process",
+                          "How to take admission in your Isbat University",
+                          "What is the process for admission",
+                          "admission",
+                          "admission process",
+                          "How can i apply",
+                          "Application Process",
+                          "Apply"
+                  ],
+                  "responses": [
+                          "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\">website</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "facilities",
+                  "patterns": [
+                          "What facilities Isbat University provide",
+                          "Isbat University facility",
+                          "What are Isbat University facilities",
+                          "facilities",
+                          "facilities provided"
+                  ],
+                  "responses": [
+                          "Isbat University provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "Isbat University intake",
+                  "patterns": [
+                          "max number of students",
+                          "number of seats per branch",
+                          "number of seats in each branch",
+                          "maximum number of seats",
+                          "maximum students intake",
+                          "What is Isbat University intake",
+                          "how many stundent are taken in each branch",
+                          "seat allotment",
+                          "seats"
+        
+                  ],
+                  "responses": [
+                          "For BscML&ML,IT, Civil and Mechanical 60 per sem "
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "uniform",
+                  "patterns": [
+                          "Isbat University dress code",
+                          "Isbat University dresscode",
+                          "what is the uniform",
+                          "can we wear casuals",
+                          "Does Isbat University have an uniform",
+                          "Is there any uniform",
+                          "uniform",
+                          "what about uniform",
+                          "do we have to wear uniform"
+                  ],
+                  "responses": [
+                          "Isbat University does not have uniform"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "committee",
+                  "patterns": [
+                          "what are the different committe in Isbat University",
+                          "different committee in Isbat University",
+                          "Are there any committee in Isbat University",
+                          "Give me committee details",
+                          "committee",
+                          "how many committee are there in Isbat University"
+                  ],
+                  "responses": [
+                          "There are various committe in Isbat University you can see at  <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug\">here</a> "
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "random",
+                  "patterns": [
+                          
+                          "I love you",
+                          "Will you marry me",
+                          "Do you love me"
+                  ],
+                  "responses": [
+                          "I am not program for this please ask appropriate query"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "swear",
+                  "patterns": [
+                          "fuck",
+                          "bitch",
+                          "shut up",
+                          "hell",
+                          "stupid",
+                          "idiot",
+                          "dumb ass",
+                          "asshole",
+                          "fucker"
+                  ],
+                  "responses": [
+                          "please use appropriate language",
+                          "Maintaining decency would be appreciated"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "vacation",
+                  "patterns": [
+                          "holidays",
+                          "when will semester starts",
+                          "when will semester end",
+                          "when is the holidays",
+                          "list of holidays",
+                          "about vacations",
+                          "about holidays",
+                          "When is vacation",
+                          "When is holidays",
+                          "how long will be the vacation"
+                  ],
+                  "responses": [
+                          "Please refer academic calendar <a target=\"_blank\" href=\"https://isbatuniversity.ac.ug/\">here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "salutaion",
+                  "patterns": [
+                          "okk",
+                          "okie",
+                          "nice work",
+                          "well done",
+                          "good job",
+                          "thanks for the help",
+                          "Thank You",
+                          "its ok",
+                          "Thanks",
+                          "k",
+                          "ok",
+                          "okay"
+                  ],
+                  "responses": [
+                          "I am glad I helped you",
+                          "welcome, anything else i can assist you with?"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "task",
+                  "patterns": [
+                          "what can you do",
+                          "what are the thing you can do",
+                          "things you can do",
+                          "what can u do for me",
+                          "how u can help me",
+                          "why i should use you",
+                          "how can you help?"
+                  ],
+                  "responses": [
+                          "I can answer to low-intermediate questions regarding Isbat University",
+                          "You can ask me questions regarding Isbat University, and i will try to answer them"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag":"ragging",
+                  "patterns":[
+                          "ragging",
+                          "is ragging practice active in Isbat University",
+                          "does Isbat University have any antiragging facility",
+                          "is there any ragging cases",
+                          "is ragging done here",
+                          "ragging juniors",
+                          "ragging history",
+                          "ragging incidents"
+                          
+                  ],
+                  "responses": [
+                          "We are Proud to tell you that our Isbat University provides ragging free environment, and we have strict rules against ragging"
+                  ]
+
+          },
+          {
+                  "tag":"hod",
+                  "patterns":[
+                          "hod",
+                          "hod name",
+                          "who is the hod"
+                  ],
+                  "responses":[
+                          "HODs differ for each Sem, please be more specific like: (HOD it)"
+                  ]
+          },
+          {
+                  "tag":"transport",
+                  "patterns":[
+                          "dtc bus route",
+                          "mode of transportation",
+                          "how to get to Isbat University",
+                          "buses for Isbat University",
+                          "Isbat University buses",
+                          "bus routes",
+                          "list of buses for travelling",
+                          "does 835 goes to Isbat University",
+                          "does 835 goes to KLA"
+                          
+                  ],
+                  "responses":[
+                          "isbat University doesnt Offer Transportation,  \n but free Parking Space"
+                  ]
+          },
+          {
+                  "tag": "Kampala",
+                  "patterns":[
+                          "nearest route to  Town",
+                          "what is the nearest stage",
+                          "where is the nearest safe Boda Stage",
+                          "closest Boda Stage",
+                          "which Bus station is closest",
+                          "nearby Taxi Stage",
+                          "Kampala Taxi Park",
+                          "Stage  nearby"
+                  ],
+                  "responses":[
+                          "Kampala Stage"
+                  ]
+          }
+          
+  ]
+}
